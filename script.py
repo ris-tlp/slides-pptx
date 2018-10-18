@@ -40,7 +40,8 @@ for i in range(len(images)):
     placeholder = slide.placeholders[1]
     print placeholder.placeholder_format.type
     title.text = finalWords[i]
-    picture = placeholder.insert_picture(images[i])
+    path = "images/" + images[i]
+    picture = placeholder.insert_picture(path)
 
 
 prs.save('final.pptx')
