@@ -1,7 +1,7 @@
 from pptx import Presentation
 import csv
 
-prs = Presentation('existing-file.pptx')
+prs = Presentation('pre-existing-file.pptx')
 title_slide_layout = prs.slide_layouts[8]
 
 engwords = []
@@ -44,4 +44,4 @@ for i in range(len(images)):
     picture = placeholder.insert_picture(path)
 
 
-prs.save('existing-file.pptx')
+prs.save('pre-existing-file.pptx')
