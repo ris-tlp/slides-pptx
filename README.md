@@ -1,5 +1,7 @@
 # slides-pptx
 A script that copies a pair of words and inserts corresponding pictures into a new slide in PowerPoint using the pptx library.
+Wrote this script to shorten the process of a monotonous group project.
+
 
 **Instructions**:
 1. Install pptx using `pip install python-pptx`
